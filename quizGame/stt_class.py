@@ -5,7 +5,7 @@ import os
 # Imports the Google Cloud client library
 from google.cloud import speech
 
-credential_path = "C:\\Users\\speed\\PycharmProjects\\quizGame\\speechvoice1-42e1023ba8c5.json"
+credential_path = "C:\\Users\\speed\\PycharmProjects\\quizGame\\.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 class STT():
