@@ -7,7 +7,7 @@ import os
 from google.cloud import texttospeech
 
 def toSound(array):
-    credential_path = "C:\\Users\\speed\\PycharmProjects\\quizGame\\speechvoice1-42e1023ba8c5.json"
+    credential_path = "C:\\Users\\speed\\PycharmProjects\\quizGame\\.json"
 
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
